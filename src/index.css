@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 768px) {
+    .custom-md-w-1-2 {
+        @apply w-1/2;
+        height: 340px;
+    }
+}
+.underline-on-active {
+    text-decoration: underline;
+  }
+  
+  .border-orange-active {
+    border-bottom: 2px solid #F97316; /* Tailwind's orange-500 */
+  }
+  .justify-end {
+    justify-content: space-between;
+}
